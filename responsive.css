@@ -1,0 +1,189 @@
+/* Mobile and Tablet Styles */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header__main-ham-menu-cont img {
+    display: block;
+
+    width: 32px;
+    height: 32px;
+  }
+
+  .header__sm-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+  }
+
+  .header__sm-menu--active {
+    display: block;
+  }
+
+  .header__sm-menu-link {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .hero-section {
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+  }
+  .intro .contact-and-cv-buttons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .intro .contact-and-cv-buttons .primary-button {
+    background-color: rgba(0, 0, 255, 0.527);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 55px;
+    margin-right: 20px;
+  }.photo {
+  display: none;
+}
+
+  
+  .intro {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 30px;
+  }
+
+  .intro p {
+    width: 100%;
+    font-size: 18px;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+ 
+  .intro .contact-and-cv-buttons .primary-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+ 
+  hr{
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-me-content {
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+  }
+
+  .about-me-content h2 {
+    font-size: 24px;
+    margin: 1rem;
+    margin-right: 20px;
+  }
+
+  .about-me-content p {
+    padding: 1rem;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .projects,
+  .education {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+  }
+
+  .projects h2,
+  .education h2 {
+    font-size: 24px;
+  }
+
+  .project-card {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+.education-item {
+  width: 100%;
+  font-size: 1rem;
+}
+  .project-card img {
+    height: 200px;
+  }
+
+  .project-card div {
+    margin-left: 0;
+  }
+
+  .skills,
+  .contact-me {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .skills h2,
+  .contact-me h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .skill-item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact-me {
+   display: block;
+     height: max-content;
+  }
+ .photo-contact{
+  display: none;
+}
+.contact-me-container{ 
+    width: 100%;
+    display: block;
+    }
+
+  form {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-container {
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
