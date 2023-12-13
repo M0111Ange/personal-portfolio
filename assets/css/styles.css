@@ -372,11 +372,11 @@ img {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: .5rem;
   border: 3px solid  #3f3e3e;
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 20px;
 }
 
 .contact__button {
@@ -399,11 +399,11 @@ img {
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 20px;
 }
 
 .footer__social {
-  margin-bottom: var(--mb-4);
+  margin-bottom: 20px;
 }
 
 .footer__icon {
@@ -416,7 +416,7 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-/* ===== MEDIA QUERIES=====*/
+/*Responsiveness*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
